@@ -204,7 +204,7 @@ $result = mysqli_query($conn, $sql);
                                     </span>
                                 </td>
                                 <td>
-                                    <a href="coupon_view_admin.php?id=<?= $row['id'] ?>" class="btn-detail">상세</a>
+                                    <a href="coupon_view.php?id=<?= $row['id'] ?>" class="btn-detail">상세</a>
                                 </td>
                             </tr>
                         <?php } ?>
